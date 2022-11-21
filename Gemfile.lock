@@ -28,7 +28,7 @@ GEM
     em-websocket (0.5.3)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
-    ethon (0.15.0)
+    ethon (0.16.0)
       ffi (>= 1.15.0)
     eventmachine (1.2.7)
     execjs (2.8.1)
@@ -39,7 +39,7 @@ GEM
     fiber-local (1.0.0)
     filesize (0.2.0)
     forwardable-extended (2.6.0)
-    html-proofer (5.0.1)
+    html-proofer (5.0.2)
       addressable (~> 2.3)
       async (~> 2.1)
       nokogiri (~> 1.13)
@@ -151,7 +151,7 @@ GEM
     whenever (1.0.0)
       chronic (>= 0.6.3)
     yell (2.2.2)
-    zeitwerk (2.6.4)
+    zeitwerk (2.6.6)
 
 PLATFORMS
   ruby
