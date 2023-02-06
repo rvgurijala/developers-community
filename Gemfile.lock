@@ -22,7 +22,7 @@ GEM
       execjs (~> 2)
     chronic (0.10.2)
     colorator (1.1.0)
-    concurrent-ruby (1.1.10)
+    concurrent-ruby (1.2.0)
     console (1.16.2)
       fiber-local
     em-websocket (0.5.3)
@@ -52,11 +52,11 @@ GEM
     i18n (0.9.5)
       concurrent-ruby (~> 1.0)
     io-event (1.1.2)
-    jekyll (3.9.2)
+    jekyll (3.9.3)
       addressable (~> 2.4)
       colorator (~> 1.0)
       em-websocket (~> 0.5)
-      i18n (~> 0.7)
+      i18n (>= 0.7, < 2)
       jekyll-sass-converter (~> 1.0)
       jekyll-watch (~> 2.0)
       kramdown (>= 1.17, < 3)
@@ -105,11 +105,11 @@ GEM
       rexml
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
-    liquid (4.0.3)
+    liquid (4.0.4)
     liquid-tag-parser (1.9.0)
       extras (~> 0.3)
       liquid (>= 3.0, < 5.0)
-    listen (3.7.1)
+    listen (3.8.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.3.6)
@@ -123,7 +123,7 @@ GEM
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     progressbar (1.11.0)
-    public_suffix (5.0.0)
+    public_suffix (5.0.1)
     racc (1.6.0)
     rack (2.2.4)
     rainbow (3.1.1)
@@ -161,7 +161,7 @@ DEPENDENCIES
   autoprefixer-rails
   html-proofer
   i18n (>= 0.7)
-  jekyll (~> 3.9.2)
+  jekyll (~> 3.9.3)
   jekyll-algolia
   jekyll-assets
   jekyll-feed
